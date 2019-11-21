@@ -1,0 +1,7 @@
+
+
+cf service movies-mysql
+cf install-plugin mysql-plugin
+cf mysql movies-mysql
+MySQL [service_instance_db]> show tables;
+
